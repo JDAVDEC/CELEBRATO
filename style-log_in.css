@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #082338;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
   }
   
   .form-container {
-    background-color: #ffffff;
+    background-color: rgb(153, 157, 178);
     border-radius: 16px;
     padding: 40px;
     width: 100%;
