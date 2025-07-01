@@ -1,115 +1,102 @@
-body {
-  background-color: black;
-  font-size: 62.5%;
-  overflow-x: hidden;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-header {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #082338;
-  border-radius: 30px;
-  padding: 10px 30px;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+  body{
+    margin: 10px;
+    background-color: #000;
+  }
+   header {
+      height: 50px;
+      background-color: #082338;
+      opacity: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      border-radius: 80px;
+    }
 
-.logo-contenedor {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+    .logo-contenedor {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
 
-.logo {
-  background-color: transparent;
-  border: 5px solid gold;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  position: relative;
-}
+    .logo {
+      background-color: transparent;
+      border: 5px solid gold;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      position: relative;
+    }
 
-.lineaHorizontal {
-  position: absolute;
-  top: 50%;
-  left: -15px;
-  width: 70px;
-  height: 5px;
-  background-color: gold;
-  transform: translateY(-50%);
-}
+    .lineaHorizontal {
+      position: absolute;
+      top: 50%;
+      left: -15px;
+      width: 70px;
+      height: 5px;
+      background-color: gold;
+      transform: translateY(-50%);
+    }
 
-.titulo {
-  color: white;
-  font-size: 2.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 5px;
-}
+    .titulo {
+      color: white;
+      font-size: 2.2rem;
+      font-family: "chewy";
+    }
 
-/* NAV links */
-.footer-links {
-  position: relative;
-  left: 200px;
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  gap: 25px;
-}
+    .footer-links {
+      margin-left: 115px;
+      display: flex;
+      gap: 80px;
+    }
 
-.footer-links p {
-  font-size: 16px;
-  color: white;
-  cursor: pointer;
-  position: relative;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+    .footer-links p {
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
 
-.footer-links p::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: white;
-  left: 0;
-  bottom: -3px;
-  transition: width 0.3s ease-in-out;
-}
+    .footer-links p::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      left: 0;
+      bottom: -3px;
+      transition: width 0.3s ease-in-out;
+    }
 
-.footer-links p:hover::after {
-  width: 100%;
-}
+    .footer-links p:hover::after {
+      width: 100%;
+    }
 
-/* Botones */
-.contenedorBotones {
-  position: relative;
-  left: 500px;
-  display: flex;
-  gap: 10px;
-}
+    .contenedorBotones {
+      display: flex;
+      margin-left: 200px;
+      gap: 10px;
+    }
 
-.contenedorBotones button {
-  border-radius: 20px;
- 
-  background-color: transparent;
-  border: 1px solid white;
-  height: 50px;
-  width: 100px;
-  color: white;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+    .contenedorBotones button {
+      border-radius: 20px;
+      background-color: transparent;
+      border: 1px solid white;
+      height: 50px;
+      width: 100px;
+      color: white;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
 
-.contenedorBotones button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px white;
-}
+    .contenedorBotones button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px white;
+    }
 
 header img {
   position: relative;
@@ -289,7 +276,7 @@ main h2 {
   padding: 10px;
   background-color: transparent;
   opacity: 0.6; 
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -354,8 +341,6 @@ footer {
   flex-direction: column;
   position: relative;
   flex: 2;
-  width: 100%;
-  height: 100px;
   top: 550px;
   background-color: #082338;
   border-radius: 2%;
@@ -422,8 +407,8 @@ footer ul {
 .lineaHorizontalfooter2 {
   position: absolute;
   top: 35%;
-  left: -15px;
-  width: 1493px;
+  left: px;
+  width: 1458px;
   height: 5px;
   background-color: white;
   transform: translateY(-50%);
