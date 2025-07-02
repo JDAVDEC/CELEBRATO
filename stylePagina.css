@@ -1,6 +1,7 @@
   body{
     margin: 10px;
     background-color: #000;
+    overflow-x: hidden;
   }
    header {
       height: 50px;
@@ -11,6 +12,7 @@
       align-items: center;
       padding: 10px 40px;
       border-radius: 80px;
+         
     }
 
     .logo-contenedor {
@@ -26,6 +28,7 @@
       width: 40px;
       border-radius: 50%;
       position: relative;
+      background: linear-gradient(145deg, #f5f5f3, #ff8903, #ff0000);
     }
 
     .lineaHorizontal {
@@ -39,13 +42,20 @@
     }
 
     .titulo {
-      color: white;
+  font-family: 'Chewy', cursive;
+  text-shadow:
+    2px 2px 4p white,   /* sombra base */
+    0 2px 10px black,/* halo difuso claro */
+    0 0 20px black;  /* toque de color difuminado */
+
+  background: linear-gradient(145deg, #ffcc00, #ff8903, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
       font-size: 2.2rem;
-      font-family: "chewy";
     }
 
     .footer-links {
-      margin-left: 115px;
+      margin-left: 165px;
       display: flex;
       gap: 80px;
     }
